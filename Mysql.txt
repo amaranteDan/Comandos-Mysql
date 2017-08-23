@@ -9,4 +9,8 @@ use comercial;
 
 create table;
 
+criando usuario no prompt
+->create user mysql@ '%' identified by 'cursomysql';
+
+
 
