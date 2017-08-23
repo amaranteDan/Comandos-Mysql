@@ -1,0 +1,12 @@
+Comandos para o Mysql* 
+*********************
+
+Primeiro comando aprendido
+
+create database comercial;
+
+use comercial;
+
+create table;
+
+
