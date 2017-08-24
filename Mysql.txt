@@ -12,5 +12,17 @@ create table;
 criando usuario no prompt
 ->create user mysql@ '%' identified by 'cursomysql';
 
+**************************************************************************************************
+Conceder permissão ao usuario
+
+-> grant all privileges on *.* to user mysql@'%' with grant option;
+
+**************************************************************************************************
+Para Revogar permissão
+
+-> revoke all on *.* from usermysql;
+
+**************************************************************************************************
+
 
 
