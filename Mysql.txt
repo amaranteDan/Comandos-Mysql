@@ -17,6 +17,17 @@ Conceder permissão ao usuario
 
 -> grant all privileges on *.* to user mysql@'%' with grant option;
 
+Nivel Gobal
+-> grant all on *.* to usermysql@localhost;
+
+Nivel Banco de Dados
+-> grant all to comercial.* to usermysql@localhost;
+-> revoke all on comercial;
+
+Nivel de tabelas
+-> grant all on comercial.nome_tabela;
+-> revoke all on comercial.nome_tabela;	 
+
 **************************************************************************************************
 Para Revogar permissão
 
